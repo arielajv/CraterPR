@@ -41,4 +41,12 @@ public class dahboardManagement_steps {
         if (dashboardPage.dashboard_page_Estimates_Button.getText().contains(estimates)) {
             Assert.assertTrue(true);
         }
-    }}
+    }
+
+    @Then("I should see the headers {string} and {string}")
+    public void i_should_see_the_headers_and(String dueInvoices, String recentEstimates) {
+        if (dashboardPage.dashboard_page_DueInvoices.getText().contains((dueInvoices))) {
+            Assert.assertTrue(true);
+
+        }
+    } }
