@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
                     "json:Cucumber_reports/cucumber_report.json"},
             features="./src/test/resources/features",
             glue="tests",
-            tags="@SalesandExpensesHeader",
-            dryRun = true
+            tags="@smokeTest",
+            dryRun = false
 
     )
     public class TestRunner {

@@ -49,6 +49,7 @@ public WebElement dashboard_page_DueInvoices;
     @FindBy (xpath = "//canvas[@id = 'graph']")
     public WebElement dashboard_page_graph;
 
-
+@FindBy (xpath = "//div[@class='w-full my-2 md:m-0 md:w-40 h-10']")
+    public WebElement dashboard_page_yearDropdown;
 
 }

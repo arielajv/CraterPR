@@ -1,4 +1,4 @@
-@dashboardTests
+@dashboardTests @Regression
 Feature: Dashboard home page
 
     Background:

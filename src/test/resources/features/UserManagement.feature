@@ -1,4 +1,4 @@
-@UserManagement
+@UserManagement @Regression
   Feature: User management / access management
 @validLogin
     Scenario: User should be able to login with valid credentials
