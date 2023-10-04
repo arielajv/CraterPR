@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                     "json:Cucumber_reports/cucumber_report.json"},
             features="./src/test/resources/features",
             glue="tests",
-            tags="@smokeTest",
+            tags="@Regression",
             dryRun = false
 
     )
